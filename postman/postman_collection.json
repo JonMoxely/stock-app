@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Stock API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Compare dates",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/api/stocks/compare?company=ABC&start=2023-01-01&end=2023-06-01"
+      }
+    },
+    {
+      "name": "Get by period",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/api/stocks/period?company=ABC&period=6M"
+      }
+    }
+  ]
+}
